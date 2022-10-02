@@ -10,105 +10,106 @@
 </head>
 
 <body>
-    <h1 id = "top">TK Photography</h1>
+    <header>
+        <h1 id = "top">TK Photography</h1>
+        <nav>
+            <ul>
+                <li><a href="#aboutheader">About</a></li>
+                <li><a href="#galleryheader">Gallery</a></li>
+                <li><a href="#contactheader">Contact</a></li>
+                <li><a href="#top">^ top</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#gallery">Gallery</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#top">^ top</a></li>
-        </ul>
-    </nav>
+    <main>
+        <div id = "aboutgallerydiv">
+            <section id = "aboutsection">
+                <div id = "abouttext">
+                    <h2 id = "aboutheader">About</h2>
+                    <p>Hello!</p>
+                    <p>I’m TK and I’m a photographer. </p>
+                    <p>I love looking at life through the lens of my camera. Landscape photography is my </p>
+                    <p>speciality and it’s taken me all over the world.</p>
+                </div>
+                <img id = "cameraman" src="https://github.com/georgeschultz1998/PHOTO-GALLERY/blob/main/images/TK.png?raw=true" alt="Man with camera">
 
-    <section>
-        <h2 id = "about">About</h2>
-        <img src="https://github.com/georgeschultz1998/PHOTO-GALLERY/blob/main/images/TK.png?raw=true" alt="Man with camera">
-        <p>Hello!</p>
-        <p>I’m TK and I’m a photographer. </p>
-        <p>I love looking at life through the lens of my camera. Landscape photography is my </p>
-        <p>speciality and it’s taken me all over the world.</p>
-    </section>
+            </section>
 
-    <section>
-        <h2 id = "gallery">Gallery</h2>
-        <p>Here are some highlights of my work. The locations and year are in the caption.</p>
-
-        <div id="chilecontainer">
-            <img src="https://github.com/georgeschultz1998/PHOTO-GALLERY/blob/main/images/Chile.png?raw=true" alt="" title="">
-            <p>Chile, 2001</p>
+            <section id = "gallerysection">
+                    <div id = "gallerytext">
+                        <h2 id = "galleryheader">Gallery</h2>
+                        <p>Here are some highlights of my work. The locations and year are in the caption.</p>
+                    </div>
+                <div id = "imagesdiv">
+                    <div id="chilecontainer">
+                        <img src="https://github.com/georgeschultz1998/PHOTO-GALLERY/blob/main/images/Chile.png?raw=true" alt="" title="">
+                        <div id="chiltext"> Chile, 2001</div>
+                    </div>
+                    <div id="guatcontainer">
+                        <img src="https://github.com/georgeschultz1998/PHOTO-GALLERY/blob/main/images/Guatemala.png?raw=trueg" alt="">
+                        <div id="guattext">Guatemala, 1997</div>
+                    </div>
+                    <div id="hawacontainer">
+                        <img src="https://github.com/georgeschultz1998/PHOTO-GALLERY/blob/main/images/Hawaii.png?raw=true" alt="">
+                        <div id="hawatext">Hawaii, 2010</div>
+                    </div>
+                    <div id="irancontainer">
+                        <img src="https://github.com/georgeschultz1998/PHOTO-GALLERY/blob/main/images/Iran.png?raw=true" alt="">
+                        <div id="irantext">Iran, 1999</div>
+                    </div>
+                    <div id="irelcontainer">
+                        <img src="https://github.com/georgeschultz1998/PHOTO-GALLERY/blob/main/images/Ireland.png?raw=true" alt="">
+                        <div id="ireltext">Ireland, 2012</div>
+                    </div>
+                    <div id="italcontainer">
+                        <img src="https://github.com/georgeschultz1998/PHOTO-GALLERY/blob/main/images/Italy.png?raw=true" alt="">
+                        <div id="italtext">Italy, 2015</div>
+                    </div>
+                    <div id="moabcontainer">
+                        <img src="https://github.com/georgeschultz1998/PHOTO-GALLERY/blob/main/images/Moab-Desert.png?raw=true" alt="">
+                        <div id="moabtext">Moab Desert, 2020</div>
+                    </div>
+                    <div id="rockcontainer">
+                        <img src="https://github.com/georgeschultz1998/PHOTO-GALLERY/blob/main/images/Rocky-Mountains.png?raw=true" alt="">
+                        <div id=rocktext>Rocky Mountains, 2009</div>
+                    </div>
+                    <div id="switcontainer">
+                        <img src="https://github.com/georgeschultz1998/PHOTO-GALLERY/blob/main/images/Switzerland.png?raw=true" alt="">
+                        <div id="swittext">Switzerland, 2014</div>
+                    </div>
+                    <div id="ukcontainer">
+                        <img src="https://github.com/georgeschultz1998/PHOTO-GALLERY/blob/main/images/UK.png?raw=true" alt="">
+                        <div id="uktext">UK, 2005</div>
+                    </div>
+                    <div id="usacontainer">
+                        <img src="https://github.com/georgeschultz1998/PHOTO-GALLERY/blob/main/images/USA.png?raw=true" alt="">
+                        <div id="usatext">USA, 2021</div>
+                    </div>
+                    <div id="wyomcontainer">
+                        <img src="https://github.com/georgeschultz1998/PHOTO-GALLERY/blob/main/images/Wyoming.png?raw=true" alt="">
+                        <div id="wyomtext">Wyoming, 2021</div>
+                    </div>
+                </div>
+            </section>
         </div>
 
-        <div id="guåatcontainer">
-            <img src="https://github.com/georgeschultz1998/PHOTO-GALLERY/blob/main/images/Guatemala.png?raw=trueg" alt="">
-            <div id="guattext">Guatemala, 1997</div>
-        </div>
+        <section>
+            <h2 id = "contactheader">Contact</h2>
+            <div id = "contactform">
+                <p>Please fill out this form and I’ll connect with you soon.</p>
+                <h3>Your contact information</h3>
+                <label for="name">Name </label>
+                <input type="text" id = "nameid" name = "name" placeholder="(Your full name)">
+                <label for="email">Email </label>
+                <input type="text" id = "emailid" name = "email" placeholder="(Enter your email address)">
+                <label for="message">Message </label>
+                <input type="text" id = "messid" name = "message" placeholder="(What can I help you with?)">
+                <input type="submit" value="Submit">
+            </div>
+        </section>
 
-        <div id="hawacontainer">
-            <img src="https://github.com/georgeschultz1998/PHOTO-GALLERY/blob/main/images/Hawaii.png?raw=true" alt="">
-            <div id="hawatext">Hawaii, 2010</div>
-        </div>
-
-        <div id="irancontainer">
-            <img src="https://github.com/georgeschultz1998/PHOTO-GALLERY/blob/main/images/Iran.png?raw=true" alt="">
-            <div id="irantext">Iran, 1999</div>
-        </div>
-
-        <div id="irelcontainer">
-            <img src="https://github.com/georgeschultz1998/PHOTO-GALLERY/blob/main/images/Ireland.png?raw=true" alt="">
-            <div id="ireltext">Ireland, 2012</div>
-        </div>
-
-        <div id="italcontainer">
-            <img src="https://github.com/georgeschultz1998/PHOTO-GALLERY/blob/main/images/Italy.png?raw=true" alt="">
-            <div id="italtext">Italy, 2015</div>
-        </div>
-
-        <div id="moabcontainer">
-            <img src="https://github.com/georgeschultz1998/PHOTO-GALLERY/blob/main/images/Moab-Desert.png?raw=true" alt="">
-            <div id="moabtext">Moab Desert, 2020</div>
-        </div>
-
-        <div id="rockcontainer">
-            <img src="https://github.com/georgeschultz1998/PHOTO-GALLERY/blob/main/images/Rocky-Mountains.png?raw=true" alt="">
-            <div id=rocktext>Rocky Mountains, 2009</div>
-        </div>
-
-        <div id="switcontainer">
-            <img src="https://github.com/georgeschultz1998/PHOTO-GALLERY/blob/main/images/Switzerland.png?raw=true" alt="">
-            <div id="swittext">Switzerland, 2014</div>
-        </div>
-
-        <div id="ukcontainer">
-            <img src="https://github.com/georgeschultz1998/PHOTO-GALLERY/blob/main/images/UK.png?raw=true" alt="">
-            <div id="uktext">UK, 2005</div>
-        </div>
-
-        <div id="usacontainer">
-            <img src="https://github.com/georgeschultz1998/PHOTO-GALLERY/blob/main/images/USA.png?raw=true" alt="">
-            <div id="usatext">USA, 2021</div>
-        </div>
-
-        <div id="wyomcontainer">
-            <img src="https://github.com/georgeschultz1998/PHOTO-GALLERY/blob/main/images/Wyoming.png?raw=true" alt="">
-            <div id="wyomtext">Wyoming, 2021</div>
-        </div>
-    </section>
-
-    <section>
-        <h2 id = "contact">Contact</h2>
-        <div id = "contactform">
-            <p>Please fill out this form and I’ll connect with you soon.</p>
-            <h3>Your contact information</h3>
-            <label for="name">Name </label>
-            <input type="text" id = "nameid" name = "name" placeholder="(Your full name)">
-            <label for="email">Email </label>
-            <input type="text" id = "emailid" name = "email" placeholder="(Enter your email address)">
-            <label for="message">Message </label>
-            <input type="text" id = "messid" name = "message" placeholder="(What can I help you with?)">
-            <input type="submit" value="Submit">
-        </div>
-    </section>
+    </main>
 
     <footer>Copyright 2021 TK Photography</footer>
 

@@ -1,0 +1,124 @@
+html {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Start of css which formats header */
+header {
+    width: 1310px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+h1 {
+    font-size: 40px;
+    color: #007D7B;
+    float: left;
+}
+
+
+nav li {
+    display: inline-flex;
+}
+
+nav {
+    padding-bottom: 25px;
+}
+
+nav a {
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+nav a:hover {
+    color: #007D7B;
+}
+
+[href="#top"] {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    border-radius: 10px 0 0px 0px;
+    background-color: #007D7B;
+}
+
+[href="#top"]:hover {
+
+    color: #007D7B;
+    background-color: #FFFFFF;
+}
+
+/* End of css which formats header */
+
+/* Start of css which formats about and gallery section*/
+#aboutgallerydiv {
+    background-color: #FFFFFF;
+    width: 1310px;
+    margin-left: 200px;
+    margin-right: 200px;
+    color: #000000;
+}
+
+#cameraman {
+    float: left;
+    width: 850px;
+    margin: 10px;
+}
+
+#abouttext {
+    float: right;
+    width: 420px;
+    text-align: right;
+    margin: 10px;
+}
+
+#abouttext p,
+#abouttext h2 {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#imagesdiv {
+    display: grid;
+    grid-template-areas:
+        "img img img"
+        "img img img"
+        "img img img"
+        "img img img";
+}
+
+img {
+    grid-area: img;
+    width: 420px;
+}
+
+#aboutsection h2,
+#gallerysection h2 {
+    font-size: 40px;
+    color: #000000;
+}
+
+#aboutsection p,
+#gallerysection p {
+    font-size: 20px;
+    color: #000000;
+}
+
+/* End of css which formats about and gallery section*/
+
+
+/* Start of css which formats contact section */
+#contactsection {
+    color: #FFFFFF;
+}
+
+/* End of css which formats contact section */
