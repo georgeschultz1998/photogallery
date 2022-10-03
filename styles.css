@@ -79,13 +79,48 @@ nav a:hover {
 /* End of css which formats header */
 
 /* Start of css which formats about and gallery section*/
+
 #aboutgallerydiv {
     background-color: #FFFFFF;
     width: 1310px;
     margin-left: 200px;
     margin-right: 200px;
     color: #000000;
+    padding-top: 10px;
 }
+
+#aboutsection{
+    width: 1310px;
+    display: grid;
+    grid-template: 
+    "img text";    
+}
+
+#cameramanimg {
+    width: 850px;
+    height: 185px;
+    grid-area: img;
+    margin-left: 10px
+}
+
+#aboutheader{
+    text-align: right;
+    width: 410px;
+    margin-right: 10px;
+    grid-area: text;
+}
+
+#abouttext {
+    float: right;
+    width: 410px;
+    text-align: right;
+    margin-top: 50px;
+    margin-right: 10px;
+    grid-area: text;
+}
+
+
+
 
 #aboutsection h2,
 #gallerysection h2 {
@@ -102,21 +137,6 @@ nav a:hover {
     color: #000000;
     margin: 0px;
     padding: 0px;
-}
-
-#cameraman {
-    float: left;
-    width: 850px;
-    height: 185px;
-    margin: 10px;
-}
-
-#abouttext {
-    float: right;
-    width: 410px;
-    text-align: right;
-    margin-top: 10px;
-    margin-right: 30px;
 }
 
 #gallerytext {
