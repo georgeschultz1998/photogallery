@@ -89,11 +89,11 @@ nav a:hover {
     padding-top: 10px;
 }
 
-#aboutsection{
+#aboutsection {
     width: 1310px;
     display: grid;
-    grid-template: 
-    "img text";    
+    grid-template:
+        "img text";
 }
 
 #cameramanimg {
@@ -103,7 +103,7 @@ nav a:hover {
     margin-left: 10px
 }
 
-#aboutheader{
+#aboutheader {
     text-align: right;
     width: 410px;
     margin-right: 10px;
