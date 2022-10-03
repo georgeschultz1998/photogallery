@@ -101,7 +101,7 @@ nav a:hover {
     width: 1310px;
     display: grid;
     grid-template:
-        "img text";
+        "img text" auto;
 }
 
 #cameramanimg {
