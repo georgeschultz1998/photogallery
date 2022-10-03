@@ -1,7 +1,7 @@
 /* Although not required in some instances, 
 I specifically targeted various items just to make it 
 easier to verify template/example was followed precicesly*/
-  
+
 html {
     background-color: #000000;
     color: #FFFFFF;
@@ -11,7 +11,7 @@ html {
 
 /* Uppercases words specified in mockup image */
 h2,
-div + div,
+div+div,
 label,
 input {
     text-transform: uppercase;
